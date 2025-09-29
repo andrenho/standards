@@ -10,13 +10,19 @@ Programming standards that I follow
 - Isolate OS specific code in source files dedicated only for that. Use posix as default, and emulate posix calls on other OSes
 - Subsystems should be as isolated as possible
 - Use OO style when it make sense, avoid global unless is for fixed data.
+- When user scripting is required, use Lua
 - TODO - _GNU_SOURCE (?)
-- TODO - how to ensure compatibility with all OSes/compilers (?)
+- how to ensure compatibility with all OSes/compilers
+  - use GNU make
+  - distribute GNU make + required executables/DLLs in a separate folder for Windows
+  - have a .sln file as well to help debugging in windows
 - Error checking
   - Return >= 0 on success, -1 on failure
-  - Use errno, create custom errnos per subsystem
+    - TODO - or maybe the opposite?
+  - Use errno, create custom errnos per subsystem (>1000)
   - If a return value is not a positive value, return by pointer
   - Use macro to decide what to do with the errors
+  - TODO - what about propagation
 
 Recommended contributed code:
 - JSON parsing: microJSON
