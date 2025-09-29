@@ -12,7 +12,10 @@ Programming standards that I follow
 - Use OO style when it make sense, avoid global unless is for fixed data.
 - TODO - _GNU_SOURCE (?)
 - TODO - how to ensure compatibility with all OSes/compilers (?)
-- TODO - error checking and return values (?)
+- Error checking
+  - Return >= 0 on success, -1 on failure
+  - Use errno, create custom errnos per subsystem
+  - If a return value is not a positive value, return by pointer
 
 Recommended contributed code:
 - JSON parsing: microJSON
