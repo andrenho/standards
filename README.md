@@ -32,8 +32,7 @@ Recommended contributed code:
 
 Make should have the following rules:
 - all: generate the smallest, fastest executable possible
-- dev: build fast (low warnings) with all debugging information
-- warnings: run checks for all warnings in gcc and clang
+- dev: build with all warnings and all debugging information
 - leaks: check for leaks (valgrind)
 - threads: check for error in threads (drd or helgrind)
 - check: run unit tests
