@@ -7,6 +7,7 @@ Programming standards that I follow
 - Embed data files into the executable. Gzip them.
 - Unit tests with TDD
 - Isolate OS specific code in source files dedicated only for that. Use posix as default, and emulate posix calls on other OSes
+- Subsystems should be as isolated as possible
 - TODO - how to ensure compatibility with all OSes/compilers (?)
 - TODO - error checking and return values (?)
 
