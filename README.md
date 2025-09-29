@@ -42,3 +42,9 @@ Warnings:
  - `-Wall -Wextra -Wpendantic -Wbad-function-cast -Wcast-align -Wcast-qual -Wconversion -Wfloat-equal -Wnull-dereference -Wshadow -Wstack-protected -Wstrict-prototypes -Wswtich-enum -Wundef -Wvla`
  - for gcc: `-Wduplicated-branches -Wduplicated-cond -Wformat-signedness -Wjump-misses-init -Wlogical-op -Wnested-externs -Wnormalized -Wold-style-definition -Wshift-negative-value -Wshift-overflow=2 -Wstrict-overflow=-3 -Wsuggest-attribute=printf -Wsuggest-attribute=malloc -Wtraditional-conversion -Wtrampolines -Wwrite-strings`
  - for clang: `-Warray-bounds-pointer-arithmetic -Wassign-enum -Wcast-function-type -Wcomma -Wcovered-switch-default -Wduplicate-enum -Widiomatic-parentheses -Wloop-analysis -Wformat-non-iso -Wformat-pedantic -Wformat-type-confusion -Wfour-char-constants  -Wimplicit-fallthrough -Wpointer-arith -Wpragmas-Wreserved-identifier -Wshift-sign-overflow -Wsigned-enum-bitfield -Wstatic-in-inline  -Wtautological-constant-in-range-compare  -Wthread-safety -Wunreachable-code -Wunreachable-code-aggressive -Wunused-macros -Wused-but-marked-unused -Wvariadic-macros -Wzero-as-null-pointer-constant`
+
+Function naming:
+ - Module_object_verb
+ - Standard verbs:
+   - create / destroy: allocate a new object
+   - init / terminate: initialize an object without allocating
