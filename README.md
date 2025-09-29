@@ -12,6 +12,7 @@ Programming standards that I follow
 - Use OO style when it make sense, avoid global unless is for fixed data.
 - When user scripting is required, use Lua
 - prefer using OO when it makes sense (multiple objects)
+- hide structs internally
 - TODO - _GNU_SOURCE (?)
 - how to ensure compatibility with all OSes/compilers
   - use GNU make
