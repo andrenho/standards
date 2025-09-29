@@ -16,6 +16,7 @@ Programming standards that I follow
   - Return >= 0 on success, -1 on failure
   - Use errno, create custom errnos per subsystem
   - If a return value is not a positive value, return by pointer
+  - Use macro to decide what to do with the errors
 
 Recommended contributed code:
 - JSON parsing: microJSON
