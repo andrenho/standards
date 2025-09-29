@@ -11,6 +11,7 @@ Programming standards that I follow
 - Subsystems should be as isolated as possible
 - Use OO style when it make sense, avoid global unless is for fixed data.
 - When user scripting is required, use Lua
+- prefer using OO when it makes sense (multiple objects)
 - TODO - _GNU_SOURCE (?)
 - how to ensure compatibility with all OSes/compilers
   - use GNU make
@@ -47,7 +48,6 @@ Function naming:
  - Module_object_verb
  - Standard verbs:
    - create / destroy: allocate a new object
-   - init / terminate: initialize an object without allocating
 
 File naming:
  - module.h
