@@ -13,7 +13,7 @@ Programming standards that I follow
 - When user scripting is required, use Lua
 - prefer using OO when it makes sense (multiple objects)
 - hide structs internally
-- TODO - _GNU_SOURCE (?)
+- _XOPEN_SOURCE = 700
 - how to ensure compatibility with all OSes/compilers
   - use GNU make
   - distribute GNU make + required executables/DLLs in a separate folder for Windows
