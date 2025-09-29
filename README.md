@@ -48,3 +48,8 @@ Function naming:
  - Standard verbs:
    - create / destroy: allocate a new object
    - init / terminate: initialize an object without allocating
+
+File naming:
+ - module.h
+ - module_priv.h
+ - module_action.c
