@@ -9,6 +9,7 @@ Programming standards that I follow
 - Unit tests with TDD
 - Isolate OS specific code in source files dedicated only for that. Use posix as default, and emulate posix calls on other OSes
 - Subsystems should be as isolated as possible
+- Use OO style when it make sense, avoid global unless is for fixed data.
 - TODO - _GNU_SOURCE (?)
 - TODO - how to ensure compatibility with all OSes/compilers (?)
 - TODO - error checking and return values (?)
